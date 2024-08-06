@@ -1,0 +1,38 @@
+.references .reference-hdr {
+  color: gray;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.references ul li {
+  border: 1px solid gray;
+  border-radius: 8px;
+  list-style: none;
+  margin: 5px auto 5px auto;
+  padding: 10px;
+  width: 60vw;
+}
+.references ul li:nth-of-type(2):after {
+  content: " ~ Mary Jo";
+  font-weight: 600;
+  font-style: italic;
+}
+.references ul li:nth-of-type(3):after {
+  content: " ~ John";
+  font-weight: 600;
+  font-style: italic;
+}
+.references ul li:nth-of-type(4):after {
+  content: " ~ Francis";
+  font-weight: 600;
+  font-style: italic;
+}
+.references ul li:nth-of-type(5):after {
+  content: " ~ Helen";
+  font-weight: 600;
+  font-style: italic;
+}
+
+.references ul li:first-of-type {
+  border: none;
+  margin: 5px auto 5px auto;
+}

@@ -1,0 +1,24 @@
+.contact__form{
+  margin: 10px auto;
+  width: 80%;
+}
+.contact__form span{
+  display: flex;
+  flex-direction: row;
+}
+.contact__form span input{
+  margin: 5px;
+  width: 400px;
+}
+.contact__form span label{
+  color: gray;
+  text-align: right;
+  padding: 10px;
+  width: 60px;
+}
+
+select {
+  margin: 0 0 5px 5px;
+  padding: 0;
+  width: 407px;
+}
